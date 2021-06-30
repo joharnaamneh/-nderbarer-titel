@@ -1,0 +1,24 @@
+<html>
+
+<head>
+</head>
+<body>
+<h1 id="pageTitle">
+Ändere mich
+</h1>
+
+  <label>Titel
+    <input id="title" name="Titel">
+  </label>
+  <input type="submit" value="senden" id="inputTitle" onclick="setTitle()">
+
+</body>
+
+
+<script>
+function setTitle(){
+	document.getElementById("pageTitle").innerHTML = document.getElementById("title").value;
+}
+</script>
+
+</html>
